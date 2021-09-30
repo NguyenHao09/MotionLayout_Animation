@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MotionLayout_Animation">
-        <activity android:name=".MainActivity">
+        <activity android:name=".BabyMotion"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MusicMotion">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
