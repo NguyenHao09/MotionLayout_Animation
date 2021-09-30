@@ -7,15 +7,10 @@
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
-       <KeyFrameSet>
-       </KeyFrameSet>
+
         <OnSwipe
             motion:touchAnchorId="@+id/view"
-            motion:dragDirection="dragDown"
-            motion:touchAnchorSide="bottom" />
-        <OnSwipe
-            motion:dragDirection="dragDown"
-            motion:touchAnchorSide="bottom" />
+            motion:dragDirection="dragDown" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
